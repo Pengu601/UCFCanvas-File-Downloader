@@ -118,7 +118,7 @@ def downloadCourseFiles(courseID, courseName, headers, filePath, courseCount, co
     root.destroy()
     
 def extractFileContents(savePath, filePath, courseName, courseCount, courseAmount):
-    newPath = os.path.join(filePath, courseName)  #gets the new path for the extract folder
+    newPath = os.path.join(filePath.strip(), courseName.strip())  #gets the new path for the extract folder
     
     if not os.path.exists(newPath):
         os.makedirs(newPath) #if folder doesnt already exist, create it
