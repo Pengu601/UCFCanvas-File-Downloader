@@ -1,0 +1,20 @@
+TODO:
+- Practice Scrapping from website #DONE
+- integrating python files into other, then running exec with it
+
+canvas auth token: 1158~WVPhPyWU4Qve4ZwB9rFeBJkLG7Zy2L8u6FLFmwtxHvJDWhEVQmTUXNwEyRaJWVEr
+user ID: 4413900
+Sujan auth token: 1158~eQ3YzurkVvRRfErytUNJV8UFNCkFZU8zHyDfDPvJhY86YXtB9wAmkzkxzfJAQLNJ
+ m
+- be able to designate a folder location to place files *DONE*
+- be able to scrape all downloadable files from a canvas modules directory *DONE*
+- be able to designate multiple folders at a time into corresponding canvas pages
+- be able to create sub folders based on each different module in the canvas modules page
+
+SPECIFIC:
+    -Integrate path folder destination folder
+    -Download files from module to destination folder
+
+- Work on Authentication (OAuth2) to have user login with canvas login to auto-generate token for user 
+
+-implement google calender api to automatically create new event for assignment when downloading any new files from canvas
